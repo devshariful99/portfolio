@@ -1,0 +1,176 @@
+@media only screen and (max-width:1080px) {
+
+    /*=====================
+    Banner CSS
+    ======================*/
+    .social-icons a {
+        margin: 0px 5px;
+    }
+
+    /*=====================
+    About CSS
+    ======================*/
+    .about_desc .bio {
+        font-size: 14px;
+    }
+    .about_desc .info_list {
+        font-size: 14px;
+    }
+    .profile_img img {
+        height: 270px;
+        width: 270px;
+    }
+    .profile_img::before {
+        height: 280px !important;
+        width: 280px !important;
+    }
+
+
+    /*=====================
+    Portfolio CSS
+    ======================*/
+    .portfolio_wrap .image span {
+        font-size: 34px !important;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    /*=====================
+    Banner CSS
+    ======================*/
+    .social-icons a {
+        margin: 0px 4px;
+    }
+    /*=====================
+    Portfolio CSS
+    ======================*/
+    .portfolio_wrap .image span {
+        font-size: 26px !important;
+    }
+
+    /*=====================
+    Contact CSS
+    ======================*/
+    .contact_form form .submit_btn {
+        padding: 6px;
+    }
+
+    /*=====================
+    Footer CSS
+    ======================*/
+    .copyright h5{
+        font-size: 18px;
+    } 
+}
+
+
+@media only screen and (max-width: 768px){
+
+    /*=====================
+    Navbar CSS
+    ======================*/
+    .active::before {
+        transform: translate(0%, -15%);
+        left: 0%;
+        top: 85%;
+    }
+    
+    /*=====================
+    Banner CSS
+    ======================*/
+    .banner_text h2 {
+        font-size: 48px;
+    }
+    .social-icons a {
+        margin: 0px 3px;
+    }
+
+    /*=====================
+    About CSS
+    ======================*/
+    .profile_img {
+        height: 356px ;
+        width: 100% ;
+        margin-top: 40px;
+    }
+    .author_skills{
+        margin-top: 40px;
+    }
+    .profile_img img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0 !important;
+    }
+
+    /*=====================
+    Portfolio CSS
+    ======================*/
+    .portfolio_wrap {
+        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .portfolio_wrap .image span {
+        font-size: 43px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*=====================
+    Navbar CSS
+    ======================*/
+    .navbar-dark .navbar-brand {
+        font-size: 19px;
+    }
+
+    /*=====================
+    Banner CSS
+    ======================*/
+    .banner_text p {
+        font-size: 17px;
+    }
+    .banner_text h2 {
+        font-size: 25px;
+    }
+    .social-icons a {
+        height: 30px;
+        width: 30px;
+        margin: 0px 2px;
+    }
+
+
+    /*=====================
+    About CSS
+    ======================*/
+    .about_desc .bio {
+        font-size: 13px;
+    }
+    .about_desc .info_list {
+        font-size: 12px;
+    }
+
+    /*=====================
+    Portfolio CSS
+    ======================*/
+    .portfolio_wrap .image span {
+        font-size: 29px !important;
+    }
+
+    /*=====================
+    Contact CSS
+    ======================*/
+    .contact_form form .submit_btn {
+        padding: 5px;
+    }
+
+    /*=====================
+    Footer CSS
+    ======================*/
+    .copyright h5 {
+        font-size: 13px;
+    }
+}
+
+
